@@ -12,4 +12,8 @@ struct button {
 	sf::Texture pressed;
 	bool locked = 0;
 	bool flagged = 0;
+	bool edge = 0;
+	bool debug_vis = false;
+	int adj_mines = 0;
+
 };
